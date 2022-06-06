@@ -7,7 +7,7 @@ from PIL import Image
 
 st.title('Lending Webapp')
 
-image = Image.open('/Users/salvatoreciaravino/Desktop/streamsc/lend/Images/dataiku.jpg')
+image = Image.open('./Images/dataiku.jpg')
 st.sidebar.image(image)
 st.sidebar.text('simple app to call a model built \n and hosted by Dataiku')
 
